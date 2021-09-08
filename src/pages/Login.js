@@ -1,16 +1,15 @@
 import React from 'react'
-import NavComponent from "../components/NavComponent";
+import LoginComponent from '../components/LoginComponent';
+
 
 const Login = () => {
     return (
         <div>
             
-            <NavComponent />
+            <LoginComponent />
+           
 
-            <form>
-                
-            </form>
-            
+          
         </div>
     )
 }

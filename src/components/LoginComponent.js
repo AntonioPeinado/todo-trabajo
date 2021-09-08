@@ -2,10 +2,12 @@ import React from 'react'
 
 function LoginComponent() {
     return (
-        <div>
-            
-        </div>
-    )
+      <div>
+        <form>
+          <input type="email" />
+        </form>
+      </div>
+    );
 }
 
 export default LoginComponent

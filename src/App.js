@@ -1,10 +1,11 @@
-import './style/App.css';
-import Login from "./pages/Login";
+import React from "react";
+import Rutas from "./router/Rutas";
+import "./style/App.css";
 
 function App() {
   return (
     <div className="App">
-        <Login />
+      <Rutas />
     </div>
   );
 }
