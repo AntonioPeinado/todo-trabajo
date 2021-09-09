@@ -4,7 +4,7 @@ import Login from "../pages/Login";
 import Administrador from "../pages/Administrador";
 import Trabajador_1 from "../pages/Trabajador_1";
 import Trabajador_2 from "../pages/Trabajador_2";
-import "../style/rutas.css";
+
 
 const Rutas = () => {
   return (
