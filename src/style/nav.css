@@ -1,15 +1,4 @@
-.nav {
-    list-style: none;
-
-    
+body{
+    background-color: steelblue;
 }
 
-.nav-list {
-    margin: 2rem 0;
-    
-}
-
-.nav-ruta {
-    text-decoration: none;
-    color: black;
-}

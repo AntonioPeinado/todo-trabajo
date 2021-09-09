@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../style/nav.css'
 function LoginComponent() {
     return (
       <div className="row mt-5">
@@ -7,7 +7,7 @@ function LoginComponent() {
         <div className="col">
           <form className="form-group">
             <input
-              className="form-control"
+              className="form-control mt-4"
               type="email"
               placeholder="escribe tu email"
             />
@@ -18,7 +18,7 @@ function LoginComponent() {
               placeholder="escribe tu password"
             />
             <input
-              className="btn btn-dark btn-block mt-4"
+              className="btn btn-lg btn-dark btn-block mt-4 "
               type="submit"
               value="Login Usuario  "
             />
